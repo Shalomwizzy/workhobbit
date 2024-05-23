@@ -1,0 +1,117 @@
+.about-us{
+    margin-top: 5%;
+    background: rgba(0, 0, 0, 0.904);
+    color: #fff;
+}
+
+.about-us h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-us p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: justify;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.about-us p:hover {
+    color: #009688; /* Or any color of your choice */
+}
+
+.about-us p:first-letter {
+    font-size: 100%;
+    font-weight: bold;
+    color: #ff5722; /* Or any color of your choice */
+    float: left;
+    margin-right: 5px;
+}
+
+.about-us p::before {
+    content: open-quote;
+    font-size: 24px;
+    color: #009688; /* Or any color of your choice */
+    margin-right: 5px;
+}
+
+.about-us p::after {
+    content: close-quote;
+    font-size: 24px;
+    color: #009688; /* Or any color of your choice */
+    margin-left: 5px;
+}
+
+.section-numbers {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.funfact {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.funfact-icon {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.number {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.funfact-title {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.btn-create-account {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 30px;
+}
+
+
+.awards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.award {
+    flex-basis: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.award img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.award h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.award p {
+    font-size: 14px;
+    color: #fff;
+}

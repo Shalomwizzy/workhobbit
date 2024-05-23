@@ -1,0 +1,33 @@
+
+    .user-dashboard {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-dashboard .card-header {
+    background-color: #240046 !important;
+    color: #fff;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.user-dashboard .card-body {
+    padding: 20px;
+}
+
+.user-dashboard p {
+    margin-bottom: 10px;
+}
+
+.user-dashboard a.btn {
+    margin-top: 10px;
+}
+
+.btn-appliy{
+    background-color: #240046 !important; 
+    color: #fff;
+}
+

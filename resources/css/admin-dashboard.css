@@ -1,0 +1,24 @@
+.admin-dashboard{
+    margin-bottom: 120px;
+    margin-top:120px;
+}
+   .view-app{
+   margin-left: 300px;
+    }
+
+.insight h6{
+    font-size: 12px;
+    font-family: 'Josefin Sans';
+}
+
+.logout-button{
+    background-color: red !important;
+    color: white !important;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    border: 2px solid;
+    font-size: .95rem;
+    text-decoration: none !important;
+    cursor: pointer;
+    font-family: 'Josefin Sans';  
+}

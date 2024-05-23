@@ -1,0 +1,85 @@
+.job-form-container {
+    width: 100%;
+    max-width: 24rem;
+    background-color: #fff;
+   margin-left: 400px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.job-form-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.job-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-form-input,
+.job-form-textarea {
+    flex: 1;
+    background-color: #f3f4f6;
+    color: #333;
+    border: 0;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.2s ease-in-out;
+    max-width: calc(100% - 1.5rem);
+}
+
+.job-form-input:focus,
+.job-form-textarea:focus {
+    outline: none;
+    background-color: #e5e7eb;
+}
+
+.job-form-button {
+    background-image: linear-gradient(to right, #4f46e5, #1f419b);
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-image 0.2s ease-in-out;
+}
+
+.job-form-button:hover {
+    background-image: linear-gradient(to right, #4f46e5, #2a6fdb);
+}
+
+.appyinput-group {
+    position: relative;
+    width: 100% !important;
+}
+
+.required-star {
+    color: red;
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.upload-label {
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+    color:  #333;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.next-button{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* .apply-now{
+    background-color: blue !important;
+} */
